@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script>
+var app=angular.module("myApp",[]);
+app.controller("myCtrl",function($scope,$http){
+
+	$http.get("todo.json").success(function(data){
+		$scope.items = data;
+		});
+});
+</script>
+</head>
+<body ng-controller="myCtrl">
+<div class="container">
+<div class="page-header"><h2>Todo List</h2></div>
+<table class="table table-stripped">
+<thread>
+<tr><th>Description</th></tr>
+</thread>
+
+<tbody>
+<tr ng-repeat="item in items">
+<td>{{item.action}}</td>
+<td>{{item.done}}</td>
+
+</tr>
+</tbody>
+
+</table>
+
+</div>
+</body>
+</html>

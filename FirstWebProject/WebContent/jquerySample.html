@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="jquerylib/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	   $(".b1group").click(function(){
+		  // alert("You clicked the button");
+			  $(this).hide();
+		   });
+
+	   $(".b2group").click(function(){
+		   alert("b2Group called")
+	   });
+	});
+</script>
+
+
+</head>
+<body>
+<h2 align="center">jQuery Demo</h2>
+<button id="button1" class="b1group">Click Me 1</button>
+<button id="button2" class="b1group">Click Me 2</button>
+<button id="button3" class="b2group">Click Me 3</button>
+<button id="button4" class="b2group">Click Me 4</button>
+</body>
+</html>

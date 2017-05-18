@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487817894511_1" label="spring-boot-build" name="spring-boot-build"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487894362913_2" label="spring-boot-sample-aop" name="spring-boot-sample-aop"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487894459595_3" label="spring-boot-sample-cache" name="spring-boot-sample-cache"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487894514321_4" label="spring-boot-sample-secure" name="spring-boot-sample-secure"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487894570257_5" label="spring-boot-sample-secure-oauth2" name="spring-boot-sample-secure-oauth2"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487894622050_6" label="spring-boot-sample-secure-oauth2-actuator" name="spring-boot-sample-secure-oauth2-actuator"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1487894670244_7" label="spring-boot-sample-secure-oauth2-resource" name="spring-boot-sample-secure-oauth2-resource"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1484231564182_0" label="Window Working Set" name="Aggregate for window 1484231564166"/>
+</workingSetManager>

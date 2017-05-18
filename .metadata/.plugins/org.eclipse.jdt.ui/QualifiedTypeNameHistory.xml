@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.tek.springLooselyCoupledExample.impl.CSVImpl"/>
+<fullyQualifiedTypeName name="com.rohini.javaConfig.impl.JavaConfigImpl"/>
+<fullyQualifiedTypeName name="com.rohini.javaConfig.CustomerConfig"/>
+<fullyQualifiedTypeName name="com.rohini.javaConfig.SchedularConfig"/>
+<fullyQualifiedTypeName name="com.rohini.OutputInterface"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+</qualifiedTypeNameHistroy>

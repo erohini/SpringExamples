@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="CSV" class="com.rohini.impl.CSVOutput">
+	</bean>
+	
+	<bean id="JSON" class="com.rohini.impl.JSONOutput">
+	</bean>
+	
+	<bean id="outHelp" class="com.rohini.helper.OutputHelper">
+		<property name="outputInterface" ref="CSV">
+		</property>
+	
+	</bean>
+
+</beans>

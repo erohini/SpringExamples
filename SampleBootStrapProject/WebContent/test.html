@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script> 
+var app=angular.module("sampleApp",[]);
+app.controller("myController",function($scope){
+	$scope.amount=function(){
+	return $scope.quantity*$scope.price;
+	}
+});
+
+</script>
+</head>
+<body>
+
+	<div ng-app="sampleApp" ng-controller="myController">
+		Quantity: <input type="text" ng-model="quantity" /> 
+		Price: <input type="text" ng-model="price" /> 
+			<br>Amount: {{amount()}}
+
+	</div>
+
+</body>
+</html>

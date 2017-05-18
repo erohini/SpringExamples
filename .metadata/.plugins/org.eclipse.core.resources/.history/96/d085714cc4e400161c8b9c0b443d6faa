@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+function process(){
+	/* console.log("process()invoked");
+	document.write("Button was clicked"); */
+
+	var names=["Sairam","Rohini","Kavya","Geethika","Dheeraj","Radhika"];
+	for(var i=0;i<names.length;i++){
+document.write(names[0]);
+		}
+}
+</script>
+
+</head>
+<body>
+	<button onclick="process()">Click Me</button>
+</body>
+</html>

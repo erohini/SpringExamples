@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+function validateForm(){
+	var username=document.getElementById("username").value;
+	var password=document.getElementById("password").value;
+
+	if(username==""||username==null){
+		//alert("Please enter Username");
+		document.getElementById("msg").innerHTML="<font color='red'>Username is required</font>"
+		return false
+		}
+	return true;
+}
+</script>
+
+
+
+</head>
+<body>
+	<h2 align="center">Login Page</h2>
+	<form action="sample.jsp" method="post"
+		onsubmit="return validateForm()">
+		<table>
+			<tr>
+				<td>username</td>
+				<td><input type="text" id="username" name="username"></td>
+				<td><div id="msg"></div></td>
+			</tr>
+			<tr>
+				<td>password</td>
+				<td><input type="password" id="password" name="password"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="LOGIN"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Sat Feb 25 10:58:50 EST 2017
+org.eclipse.jst.jee.server\:MVCSpring1=C\:\\Tomcat\\wtpwebapps\\MVCSpring1
+org.eclipse.jst.jee.server\:SampleBootStrapProject=C\:\\Tomcat\\wtpwebapps\\SampleBootStrapProject
+org.eclipse.jst.jee.server\:FirstWebProject=C\:\\Tomcat\\wtpwebapps\\FirstWebProject
+org.eclipse.jst.j2ee.server\:mvc=C\:\\Tomcat\\wtpwebapps\\mvc

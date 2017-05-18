@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+
+	<bean id="CSVOut" class="com.rohini.impl.CSVHelper">
+	</bean>
+	
+	<bean id="JSONOut" class="com.rohini.impl.JSONHelper">
+	</bean>
+	
+	<bean id="helper" class="com.rohini.Helper">
+			<constructor-arg>
+				<ref bean="JSONOut"/>
+			</constructor-arg>
+	
+	</bean>
+</beans>
